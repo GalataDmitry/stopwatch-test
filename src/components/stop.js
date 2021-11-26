@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import Watch from "./watch"
+import Watch from './watch'
 
-import {interval} from "rxjs"
-import {map} from "rxjs/operators"
+import {interval} from 'rxjs'
+import {map} from 'rxjs/operators'
 
 const Stop = () => {
 
