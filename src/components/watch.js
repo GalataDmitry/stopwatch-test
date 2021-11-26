@@ -8,7 +8,7 @@ const Watch = ({timer}) => {
 
     useEffect(() => {
 
-        let secTransform = Math.floor(timer % 60)
+        let secTransform = timer % 60
         let minTransform = Math.floor(timer / 60 % 60)
         let houTransform = Math.floor(timer / 3600)
 

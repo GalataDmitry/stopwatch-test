@@ -10,6 +10,7 @@ const Stop = () => {
 
     const [transition, setTransition] = useState(0)
     const [subscriber, setSubscriber] = useState('')
+    console.log('subscriber', subscriber)
     const [dblClick, setDblClick] = useState(true)
 
     const onStartStop = () => {
